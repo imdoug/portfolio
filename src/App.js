@@ -1,11 +1,12 @@
 import React from 'react'
+import Intro from './components/Intro';
 
 function App() {
   return (
     <>
     <div className="body">
       <div className="portfolio-box">
-        <h1>sss</h1>
+        <Intro/>
       </div>
     </div>
     </>
