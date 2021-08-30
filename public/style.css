@@ -87,7 +87,16 @@ a:hover{
 .about{
     width: 66.5%;
 }
-
+.about > h2{
+    margin: 5px 0px;
+    font-size: 2.4em;
+    text-indent: 5%;
+}
+.about-text{
+    font-size: 1.5em;
+    padding: 5px 0px;
+    padding-left: 5%;
+}
 .icons{
     display: flex;
     justify-content: center;
@@ -97,6 +106,17 @@ a:hover{
 .fa{
     padding: 5px;
     color: #6735dd;
+}
+.btn{
+    margin: 5px 0px;
+    margin-left: 5%;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border: 2px solid #6735dd;
+    border-radius: 16px;
+    background-color: #eee;
+    color: #6735dd;
+
 }
   
   /* @keyframes rotate{

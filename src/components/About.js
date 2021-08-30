@@ -8,9 +8,9 @@ const About = ()=>{
                     <p code-text>{"<"}h2{">"}</p>
                     <h2>About me</h2>
                     <p code-text>{"<"}/h2{">"}</p>
-                    <p code-text>{"<"}p id="presentation"{">"}</p>
+                    <p className="code-text">{"<"}p id="presentation"{">"}</p>
                     <div className="presentation">
-                        <p>Fueled by my desire to meaningfully interact with people,
+                        <p className="about-text">Fueled by my desire to meaningfully interact with people,
                              I have a vast curiosity and appreciation for the challenge
                               of designing software that can enrich peoples’ lives.
                                I am eager to join a software engineering team that will
@@ -24,7 +24,7 @@ const About = ()=>{
                         </p>
                     </div>
                     <p className="code-text">{"<"}/p{">"}</p>
-                    <button>RESUME</button>
+                    <button className="resume btn">RESUME</button>
                     <div className="icons">
                         <p code-text>{"<"}!-- some social network I still use --{">"}</p>
                         <i class="fa fa-linkedin"></i>
