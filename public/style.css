@@ -1,9 +1,103 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Inconsolata&display=swap');
 .portfolio-box{
     margin: 0 auto;
-    background-color: aqua;
-    width: 95%;
+    margin-top: 2.5%;
+    background-color: #e2e9ee;
+    width: 90%;
+    padding: 2.5%;
+    color: #555;
+    font-family: 'Bitter', serif;
   }
+p{
+    margin: 0;
+}
+/* INTRO COMPONENT  */
+nav > p{
+    padding-left: 5%;
+}
+.nav-text > .code-text{
+    text-indent: 5%;
+}
+.nav-text > nav{
+    font-size: 2em;
+    padding-left: 3%;
+}
+.picture{
+    /* text-align: center;  mobile*/
+    margin-top: 20px;
+    display: flex;
+    width: 84%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.picture > p{
+    padding: 0px 10px;
+}
+img{
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: #6735dd;
+    cursor: pointer;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.greetings{
+    width: 60%;
+    margin: 0px auto;
+}
+.greetings > h1{
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.greetings > p{
+    text-indent: -5.5%;
+}
+.who-i-am{
+    font-size: 2em;
+    text-indent: 7%;
+}
+.who-i-am > h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.code-text{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2em;
+    /* color: #c9c8ea; */
+}
+/* ABOUT COMPONENT  */
+.about-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about{
+    width: 66.5%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.fa{
+    padding: 5px;
+    color: #6735dd;
+}
   
   /* @keyframes rotate{
     from {
