@@ -4,6 +4,7 @@
 .portfolio-box{
     margin: 0 auto;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
     background-color: #e2e9ee;
     width: 90%;
     padding: 2.5%;
@@ -94,10 +95,10 @@ img{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    /* color: #fff; */
 }
 a:hover{
-    background-color: #6735dd;
+    /* background-color: #6735dd; */
     cursor: pointer;
 }
 .div{
@@ -219,7 +220,7 @@ a:hover{
     padding-left: 30px;
     font-size: 1.2em;
 }
-hr{
+.skill-box hr{
     margin: 0;
     border:none;
     height: 4px;
@@ -232,8 +233,63 @@ hr{
     margin: 5px;
     text-indent: 5%;
 }
+/* PROJECTS SECTION */
 
-  
+.project-section{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-box{
+    width: 25%;
+}
+.project-box h3{
+    color: #ed622d;
+    margin: 10px 0px;
+    font-size: 2em;
+}
+.project-box hr{
+    border: none;
+    height: 2px;
+    background-color: #ed622d;
+}
+
+.project-box p{
+    font-size: 1.4em;
+}
+/* FOOTER SECTION */
+
+.footer-section{
+    text-align: center;
+}
+.project-btn{
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-size: 1vw;
+    letter-spacing: 0.1em;
+    color: #555;
+    border: 1px solid #ed622d;
+    border-radius:8px;
+    outline: none;
+    /* background: linear-gradient(45deg,#d350db,teal,#d350db); */
+    background-size: 400% 400%;
+    box-shadow: 0.5vw -0.5vw 0 lightcoral;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.project-btn:hover{
+    animation: gradient 10s ease infinite;
+    font-size:1vw;
+    box-shadow: 0.1vw 0.1vw 0 lightcoral;
+} 
+@keyframes gradient {
+    50% {
+      background-position: 100% 0;
+    }
+  }
   /* @keyframes rotate{
     from {
       transform: rotate(0deg);
