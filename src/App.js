@@ -1,6 +1,7 @@
 import React from 'react'
 import Intro from './components/Intro';
 import About from './components/About';
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="portfolio-box">
         <Intro/>
         <About/>
+        <Skills/>
       </div>
     </div>
     </>

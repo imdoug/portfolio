@@ -19,8 +19,8 @@ const Intro = () =>{
         </div>
         <div className="div">
             <div className="greetings">
-            <p className="code-text">{"<"}div id="say-hi"{">"}</p>
-                <h1>Hi, I'm Doug,</h1>
+            <p className="code-text ">{"<"}div id="say-hi"{">"}</p>
+                <h1><span>Hi, I'm Doug,</span></h1>
                 <div className="who-i-am">
                     <h3>I'm a Software Engineer from</h3>
                     <h3>New York, NY.</h3>

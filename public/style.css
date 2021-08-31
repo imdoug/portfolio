@@ -10,6 +10,9 @@
     color: #555;
     font-family: 'Bitter', serif;
   }
+span{
+    color: #6735dd;
+}
 p{
     margin: 0;
 }
@@ -75,7 +78,7 @@ a:hover{
 }
 .code-text{
     font-family: 'Inconsolata', monospace;
-    font-size: 1.2em;
+    font-size: 1em;
     /* color: #c9c8ea; */
 }
 /* ABOUT COMPONENT  */
@@ -103,6 +106,10 @@ a:hover{
     align-items: center;
     font-size: 2em;
 }
+.icons > p {
+    font-size: 0.5em;
+    letter-spacing: 2px;
+}
 .fa{
     padding: 5px;
     color: #6735dd;
@@ -118,12 +125,35 @@ a:hover{
     color: #6735dd;
 
 }
+.btn:hover{
+    background:#6735dd;
+    color:#fff;
+    border: 2px  solid #6735dd;
+    cursor:pointer;
+}
+/* SKILLS SECTION  */
+
+.skill-box{
+
+    width: 30%;
+    height: 300px;
+    border-radius: 32px;
+    border: 1px  solid black;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 98%;
+    height: 50px;
+    border-radius: 32px 32px  0px 0px ;
+}
   
   /* @keyframes rotate{
     from {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+      background:;
     }
   } */

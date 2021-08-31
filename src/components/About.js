@@ -6,7 +6,7 @@ const About = ()=>{
         <div className="about-section">
                 <div className="about">
                     <p code-text>{"<"}h2{">"}</p>
-                    <h2>About me</h2>
+                    <h2><span>About me</span></h2>
                     <p code-text>{"<"}/h2{">"}</p>
                     <p className="code-text">{"<"}p id="presentation"{">"}</p>
                     <div className="presentation">
@@ -24,9 +24,9 @@ const About = ()=>{
                         </p>
                     </div>
                     <p className="code-text">{"<"}/p{">"}</p>
-                    <button className="resume btn">RESUME</button>
+                    <button className="resume btn"><a href="https://docs.google.com/document/d/11pId6c1UgXNilWA3_5HWdcz08NkS5MeDXjIH5kALR7Y/edit?usp=sharing" target="blank">RESUME</a></button>
                     <div className="icons">
-                        <p code-text>{"<"}!-- some social network I still use --{">"}</p>
+                        <p className="code-text">{"<"}!-- some social network I still use --{">"}</p>
                         <i class="fa fa-linkedin"></i>
                         <i class="fa fa-codepen"></i>
                         <i class="fa fa-github"></i>
