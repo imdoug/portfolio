@@ -7,7 +7,7 @@ const About = ()=>{
                 <div className="about">
                     <p code-text>{"<"}h2{">"}</p>
                     <h2><span>About me</span></h2>
-                    <p code-text>{"<"}/h2{">"}</p>
+                    <p className="code-text">{"<"}/h2{">"}</p>
                     <p className="code-text">{"<"}p id="presentation"{">"}</p>
                     <div className="presentation">
                         <p className="about-text">Fueled by my desire to meaningfully interact with people,
