@@ -1,10 +1,16 @@
 import React from "react";
 
 const Intro = () =>{
+    const toggle = () =>{
+        let body = document.querySelector('body')
+        let  toggle = document.getElementById('toggle')
+        toggle.classList.toggle('active')
+        body.classList.toggle('active')
+    }
     return(
         <>
-        <div className="day-night-btn">
-            <button>CLICK ME</button>
+        <div id="toggle">
+            <i className="indicator" onClick={toggle}></i>
         </div>
         <div className="nav-text">
             <p className="code-text">{"<"}div id="menu"{">"}</p>
