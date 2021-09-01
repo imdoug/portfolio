@@ -9,12 +9,15 @@ const Intro = () =>{
     }
     return(
         <>
-        <div id="toggle">
-            <i className="indicator" onClick={toggle}></i>
+        <div className="btn-box">
+            <div id="toggle">
+                <i className="indicator" onClick={toggle}></i>
+            </div>
         </div>
         <div className="nav-text">
-            <p className="code-text">{"<"}div id="menu"{">"}</p>
-            <nav><p>Hello, here you can get to know more <a>ABOUT ME</a>, I can show you my <a>SKILLS</a>,<br/> you can also check some of my <a>PROJECTS</a> and download my <a>RESUME</a></p></nav>
+            <p className="code-text">{"<"}div id="creative-nav"{">"}</p>
+            <nav className="upper"><p>Hello, here you can get to know more <a>ABOUT ME</a>,I can show you my <a>SKILLS</a></p></nav>
+            <nav className="lower"><p> you can also check some of my <a>PROJECTS</a> and download my <a>RESUME</a></p></nav>
             <p className="code-text">{"<"}/div{">"}</p>
             <p className="code-text">{"<"}!-- words in uppercase are clickable --{">"} </p>
         </div>
@@ -26,8 +29,8 @@ const Intro = () =>{
         <div className="div">
             <div className="greetings">
             <p className="code-text ">{"<"}div id="say-hi"{">"}</p>
-                <h1><span>Hi, I'm Doug,</span></h1>
                 <div className="who-i-am">
+                <h1><span>Hi, I'm Doug,</span></h1>
                     <h3>I'm a Software Engineer from</h3>
                     <h3>New York, NY.</h3>
                 </div>
