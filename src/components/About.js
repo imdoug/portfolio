@@ -3,7 +3,7 @@ import React from "react";
 const About = ()=>{
     return(
         <>
-        <div className="about-section">
+        <div className="about-section" id="ABOUT">
                 <div className="about">
                     <p className="code-text">{"<"}h2{">"}</p>
                     <h2><span>About me</span></h2>
@@ -24,13 +24,13 @@ const About = ()=>{
                         </p>
                         <p className="code-text">{"<"}/p{">"}</p>
                     </div>
-                    <button className="resume btn"><a href="https://docs.google.com/document/d/11pId6c1UgXNilWA3_5HWdcz08NkS5MeDXjIH5kALR7Y/edit?usp=sharing" target="blank">RESUME</a></button>
+                    <button className="resume btn"><a href="/DouglasMoreira.pdf">RESUME</a></button>
                     <div className="icons">
                         <p className="code-text">{"<"}!-- ALALAALALALALALLALALALALALALALALALALALALA --{">"}</p>
-                        <i class="fa fa-linkedin"></i>
-                        <i class="fa fa-codepen"></i>
-                        <i class="fa fa-github"></i>
-                        <i class="fa fa-instagram"></i>
+                        <a href="https://www.linkedin.com/in/imdoug/"  target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/imdoug"  target="_blank"><i class="fa fa-github"></i></a>
+                        <a  href="https://codepen.io/imdoug/"  target="_blank"><i class="fa fa-codepen"></i></a>
+                        <a href="https://www.instagram.com/i.mdoug/"  target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
 

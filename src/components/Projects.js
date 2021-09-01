@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () =>{
     return(
         <>
-        <div className="projects">
+        <div className="projects" id="PROJECTS">
             <div className="projects-head">
                 <p className="code-text">{"<"}h2{">"}</p>
                 <h2>Projects</h2>
@@ -23,7 +23,7 @@ const Projects = () =>{
                             I used JavaScript and jQuery to manipulate the
                             DOM and CSS to give an immersive experience to
                             the user.</p>
-                            <button className="project-btn"><a>SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://pokemon-world-imdoug.netlify.app/" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>Amores Restaurant</h3>
@@ -36,7 +36,7 @@ const Projects = () =>{
                         and MVC methodologies. I also utilized plain CSS
                             to style the application and used EJS to language
                             to build the functionality and logic of the project.</p>
-                            <button className="project-btn"><a>SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://hproject2.herokuapp.com/restaurant" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>DevMuscle</h3>
@@ -51,7 +51,7 @@ const Projects = () =>{
                             developer branches, submitting pull requests
                             and merging code.
                             </p>
-                            <button className="project-btn"><a>SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
             </div>
             <p className="code-text">{"<"}/div{">"}</p>

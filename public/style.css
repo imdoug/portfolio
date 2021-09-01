@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 .portfolio-box{
     margin: 0 auto;
     margin-top: 2.5%;
@@ -15,6 +18,9 @@ span{
 }
 p{
     margin: 0;
+}
+i{
+    cursor: pointer;
 }
 /* DAY/NIGHT MODE BUTTON */
 .btn-box{
@@ -115,14 +121,16 @@ nav > p > a{
     background-color: #6735dd;
     background-position:left bottom;
     transition-duration: 2s;
+    /* scroll-behavior: smooth; */
 }
 nav > p > a:hover{
     direction: ltr;
     background-position: left;
     cursor: pointer;
 }
-.resume a{
+.btn a{
     text-decoration: none;
+    color: #6735dd
 }
 .div{
     display: flex;
@@ -374,6 +382,10 @@ nav > p > a:hover{
     font-size:1vw;
     box-shadow: 0.2vw 0.2vw 0 #90def4;
 } 
+.project-btn > a{
+    text-decoration: none;
+    color: #ed622d;
+}
 /* FOOTER SECTION */
 
 .footer-section{
