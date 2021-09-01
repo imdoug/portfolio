@@ -23,9 +23,14 @@ i{
     cursor: pointer;
 }
 /* DAY/NIGHT MODE BUTTON */
+.mode{
+    text-align: end;
+    margin: 20px 0px;
+}
 .btn-box{
     display: flex;
     justify-content: flex-end;
+    width: 96%;
 }
 #toggle{
     position: relative;
@@ -35,10 +40,10 @@ i{
     border-radius: 160px;
     transition: 0.5s;
     cursor: pointer;
-    background: #444;
-    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
+    border: 1px solid #6735dd;
+    /* box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
                 inset 0 8px 8px rgba(0,0,0,0.1),
-                inset 0 -4px 4px rgba(0,0,0,0.1);
+                inset 0 -4px 4px rgba(0,0,0,0.1); */
 }
 #toggle .indicator{
     position: absolute;
@@ -46,12 +51,12 @@ i{
     left: 0;
     width: 25px;
     height: 25px;
-    background: linear-gradient(to bottom , #444,  #222);
+    background: linear-gradient(to bottom , #6735dd,  #a28cd8);
     border-radius: 50%;
     transform: scale(0.9);
-    box-shadow:  0 8px 40px rgba(0,0,0,0.5),
+    /* box-shadow:  0 8px 40px rgba(0,0,0,0.5),
                 inset 0 4px 4px rgba(255,255,255,0.2),
-                inset 0 -4px 4px rgba(255,255,255,0.2);
+                inset 0 -4px 4px rgba(255,255,255,0.2); */
     transition: 0.5s;
 
 }
@@ -63,7 +68,7 @@ i{
                 inset 0 -4px 4px rgba(255,255,255,1);
 }
 #toggle.active{
-    background:  #F4F9FC;
+    border: 1px solid #fff;
     box-shadow: inset 0 2px 20px rgba(0,0,0,0.1),
                 inset 0 2px 8px rgba(0,0,0,0.1),
                 inset 0 -4px 8px rgba(0,0,0,0.05);

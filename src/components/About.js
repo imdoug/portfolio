@@ -24,7 +24,7 @@ const About = ()=>{
                         </p>
                         <p className="code-text">{"<"}/p{">"}</p>
                     </div>
-                    <button className="resume btn"><a href="/DouglasMoreira.pdf">RESUME</a></button>
+                    <button className="resume btn"><a href="https://drive.google.com/file/d/1ZhyUF_HntV4c3C7PY-LR4sdwc4KvpCZW/view?usp=sharing" target="_blank">RESUME</a></button>
                     <div className="icons">
                         <p className="code-text">{"<"}!-- here are some of my social networks and some code I wrote --{">"}</p>
                         <a href="https://www.linkedin.com/in/imdoug/"  target="_blank"><i class="fa fa-linkedin"></i></a>
