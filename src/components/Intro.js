@@ -2,10 +2,35 @@ import React from "react";
 
 const Intro = () =>{
     const toggle = () =>{
+        let icon = document.querySelector('.fa-comments-o')
+        let hire = document.querySelector(".hire")
+        let skillBox =  document.querySelectorAll(".skill-box")
+        let miniBar =  document.querySelectorAll(".mini-bar")
+        let pbtn = document.querySelectorAll(".project-btn")
+        let btn = document.querySelector('.btn')
+        let portfolioBox = document.querySelector('.portfolio-box')
         let body = document.querySelector('body')
-        let  toggle = document.getElementById('toggle')
+        let toggle = document.getElementById('toggle')
         toggle.classList.toggle('active')
         body.classList.toggle('active')
+        portfolioBox.classList.toggle('night')
+        btn.classList.toggle('btn-night')
+        hire.classList.toggle('hire-night')
+        icon.classList.toggle('hire-night')
+        for (let i = 0; i < miniBar.length; i++){
+            miniBar[i].classList.toggle('night-hr')
+        }
+        for (let i = 0; i < skillBox.length; i++){
+            skillBox[i].classList.toggle('night-box')
+        }
+        for (let i = 0; i < pbtn.length; i++){
+            pbtn[i].classList.toggle('night-btn')
+        }
+
+    }
+    let body = document.querySelector('body')
+    if (body.classList.value === "active"){
+        
     }
     return(
         <>

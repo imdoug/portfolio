@@ -13,7 +13,7 @@ const Projects = () =>{
             <div className="project-section">
                 <div className="project-box">
                     <h3>Pokedex</h3>
-                    <hr/>
+                    <hr className="mini-bar"/>
                     <p>In this first tech Project, I combine my HTML,
                         CSS and JavaScript skills to create a Pokedex
                         where the user can search for pokemons and get
@@ -27,7 +27,7 @@ const Projects = () =>{
                 </div>
                 <div className="project-box">
                     <h3>Amores Restaurant</h3>
-                    <hr/>
+                    <hr className="mini-bar"/>
                     <p>This was a project that combined Mongoose, 
                         Express and Node.js (MEN) tech stack to create
                         a Server-side Application that leveraged 
@@ -40,7 +40,7 @@ const Projects = () =>{
                 </div>
                 <div className="project-box">
                     <h3>DevMuscle</h3>
-                    <hr/>
+                    <hr className="mini-bar"/>
                     <p>This was  a pair programming project that
                         Incremented React in the MEN stack forming
                         a MERN tech stack, this application leveraged
