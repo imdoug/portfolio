@@ -28,12 +28,26 @@ const Intro = () =>{
         }
 
     }
-    let body = document.querySelector('body')
-    if (body.classList.value === "active"){
-        
+    window.onscroll = ()=> {
+        scrollFunction()
+    };
+    const  scrollFunction = () => {
+    let mybutton = document.getElementById("myBtn");
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     }
     return(
         <>
+        <button onClick={topFunction} id="myBtn"><i class="fa fa-angle-double-up"></i></button>
         <p className="code-text mode">{"<"}!-- day/night --{">"}</p>
         <div className="btn-box">
             <div id="toggle">

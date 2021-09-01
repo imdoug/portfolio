@@ -25,7 +25,7 @@ i{
 /* DAY/NIGHT MODE BUTTON */
 .mode{
     text-align: end;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 .btn-box{
     display: flex;
@@ -424,12 +424,12 @@ nav > p > a:hover{
 }
 body.active{
     background: #0c0c0c;
-    color: white;
+    color: #ccc;
 }
 /* NIGHT MODE */
 .night{
     background-color: #000;
-    color: #fff;
+    color: #ccc;
     transition: 0.5s;
 }
 .btn-night{
@@ -452,9 +452,27 @@ body.active{
     background-color: #ed622d;
 }
 .hire-night{
-    color: #fff;
+    color: #ccc;
 }
+/* UP BTN */
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 19px;
+    z-index: 99;
+    font-size: 40px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  /* #myBtn:hover {
+    background-color: #9eace6;
+  } */
 /* @keyframes gradient {
     50% {
       background-position: 100% 0;
