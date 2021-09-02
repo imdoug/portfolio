@@ -18,7 +18,7 @@ span{
 }
 p{
     margin: 0;
-}
+} 
 /* DAY/NIGHT MODE BUTTON */
 .mode{
     text-align: end;
@@ -305,9 +305,6 @@ nav > p > a:hover{
     margin: 20px 0px;
 }
 /* PROJECTS SECTION */
-.project{
-
-}
 .projects-head{
     text-indent: 16.5%;
     margin-top: 50px;
