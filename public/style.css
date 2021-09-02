@@ -19,9 +19,6 @@ span{
 p{
     margin: 0;
 }
-i{
-    cursor: pointer;
-}
 /* DAY/NIGHT MODE BUTTON */
 .mode{
     text-align: end;
