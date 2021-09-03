@@ -201,7 +201,6 @@ nav > p > a:hover{
     margin-top: 20px;
 }
 .icons > p {
-
     font-size: 0.5em;
     letter-spacing: 2px;
     margin-right: 20px;
@@ -214,7 +213,7 @@ nav > p > a:hover{
     margin-left: 5%;
     padding: 10px 15px;
     margin-top: 20px;
-    font-size: 1vw;
+    font-size: 17px;
     letter-spacing: 0.1em;
     color: #6735dd;
     border: 3px solid #6735dd;
@@ -223,7 +222,7 @@ nav > p > a:hover{
     background: transparent;
     /* background: linear-gradient(45deg,#d350db,teal,#d350db); */
     background-size: 400% 400%;
-    box-shadow: 0.4vw 0.4vw 0 #f3c7d3;
+    box-shadow: 6px 6px 0 #f3c7d3;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: 'Source Code Pro', monospace;
@@ -244,7 +243,7 @@ nav > p > a:hover{
     margin: 20px 0px;
 }
 .skill-box{
-    width: 28%;
+    width: 380px;
     height: 300px;
     border-radius: 32px;
     border: 4px  solid #4468f2;
@@ -330,7 +329,7 @@ nav > p > a:hover{
     margin: 20px 0px;
 }
 .project-box{
-    width: 26%;
+    width: 400px;
 }
 .project-box h3{
     color: #ed622d;
@@ -360,16 +359,16 @@ nav > p > a:hover{
 .project-btn{
     padding: 10px 15px;
     margin-top: 30px;
-    font-size: 1vw;
+    font-size: 17px;
     letter-spacing: 0.1em;
     color: #ed622d;
     border: 3px solid #ed622d;
-    border-radius:8px;
+    border-radius: 8px;
     outline: none;
     background: transparent;
     /* background: linear-gradient(45deg,#d350db,teal,#d350db); */
     background-size: 400% 400%;
-    box-shadow: 0.4vw 0.4vw 0 #90def4;
+    box-shadow: 4px 4px 0 #90def4;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: 'Source Code Pro', monospace;
@@ -377,7 +376,7 @@ nav > p > a:hover{
 
 .project-btn:hover{
     /* animation: gradient 10s ease infinite; */
-    font-size:1vw;
+    font-size: 20px;
     box-shadow: 0.2vw 0.2vw 0 #90def4;
 } 
 .project-btn > a{
@@ -463,6 +462,22 @@ body.active{
     color: white;
     cursor: pointer;
     border-radius: 50%;
+  }
+
+  @media only screen and (max-width: 600px){
+      .picture{
+          display: block;
+          text-align: center;
+      }
+      .picture .code-text{
+          margin: 10px 0px;
+      }
+      .icons{
+          display: block;
+      }
+      .icons .code-text{
+          margin: 30px 0px 0px 10px;
+      }
   }
   /* #myBtn:hover {
     background-color: #9eace6;
