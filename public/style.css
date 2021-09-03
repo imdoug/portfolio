@@ -464,7 +464,7 @@ body.active{
     border-radius: 50%;
   }
 
-  @media only screen and (max-width: 600px){
+  @media (max-width: 600px){
       .picture{
           display: block;
           text-align: center;
@@ -477,6 +477,9 @@ body.active{
       }
       .icons .code-text{
           margin: 30px 0px 0px 10px;
+      }
+      .about{
+          width: 100%;
       }
   }
   /* #myBtn:hover {
