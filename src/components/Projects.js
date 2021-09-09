@@ -14,6 +14,7 @@ const Projects = () =>{
                 <div className="project-box">
                     <h3>Pokedex</h3>
                     <hr className="mini-bar"/>
+                    <img src="https://i.ibb.co/LCLgMy3/Pokemon.gif"/>
                     <p>In this first tech Project, I combine my HTML,
                         CSS and JavaScript skills to create a Pokedex
                         where the user can search for pokemons and get
@@ -28,6 +29,7 @@ const Projects = () =>{
                 <div className="project-box">
                     <h3>Amores Restaurant</h3>
                     <hr className="mini-bar"/>
+                    <img src="https://i.ibb.co/316R3xB/Amores-Restaurant.gif"/>
                     <p>This was a project that combined Mongoose, 
                         Express and Node.js (MEN) tech stack to create
                         a Server-side Application that leveraged 
@@ -41,6 +43,7 @@ const Projects = () =>{
                 <div className="project-box">
                     <h3>DevMuscle</h3>
                     <hr className="mini-bar"/>
+                    <img src="https://i.ibb.co/K9C6JFB/DEVMuscles.gif"/>
                     <p>This was  a pair programming project that
                         Incremented React in the MEN stack forming
                         a MERN tech stack, this application leveraged
@@ -51,6 +54,18 @@ const Projects = () =>{
                             developer branches, submitting pull requests
                             and merging code.
                             </p>
+                            <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
+                </div>
+                <div className="project-box">
+                    <h3>Lost Paws</h3>
+                    <hr className="mini-bar"/>
+                    <img src="https://i.ibb.co/hB9FkLX/LostPaws.gif"/>
+                    <p>This project I challenged myself to learn something new,
+                         and  I learned Java and Spring Boot to create the 
+                        API/backEnd for this application. On the frontEnd I
+                        used React with useContext and Router to give an 
+                        app visual to this application. It is a full CRUD
+                        application with RESTful API. </p>
                             <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
             </div>

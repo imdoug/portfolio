@@ -22,7 +22,7 @@ p{
 /* DAY/NIGHT MODE BUTTON */
 .mode{
     text-align: end;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .btn-box{
     display: flex;
@@ -112,7 +112,7 @@ nav > p{
 .picture > p{
     padding: 0px 20px;
 }
-img{
+.profile{
     border-radius: 50%;
     width:300px;
     height:300px;
@@ -343,8 +343,13 @@ nav > p > a:hover{
     width: 50px;
     background-color: #90def4;
 }
+.project-box img{
+    max-width: 400px;
+    border-radius: 20px;
+    border: 2px solid #ed622d;
+}
 .project-box p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Source Code Pro', monospace;
 }
 .projects-head .code-text{
@@ -376,8 +381,8 @@ nav > p > a:hover{
 
 .project-btn:hover{
     /* animation: gradient 10s ease infinite; */
-    font-size: 20px;
-    box-shadow: 0.2vw 0.2vw 0 #90def4;
+    font-size: 17px;
+    box-shadow: 2px 2px 0 #90def4;
 } 
 .project-btn > a{
     text-decoration: none;

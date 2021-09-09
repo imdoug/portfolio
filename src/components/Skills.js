@@ -67,7 +67,7 @@ const Skills = () =>{
                         <p className="skill-item">Express</p>
                         <p className="skill-item">Django</p>
                         <p className="skill-item">Node.js</p>
-                        <p className="skill-item">Spring</p>
+                        <p className="skill-item">Spring Boot</p>
                     </div>
                 </div>
                 <div className="skill-box">
