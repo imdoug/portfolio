@@ -66,7 +66,7 @@ const Projects = () =>{
                         used React with useContext and Router to give an 
                         app visual to this application. It is a full CRUD
                         application with RESTful API. </p>
-                            <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://lost-paws.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
             </div>
             <p className="code-text">{"<"}/div{">"}</p>
