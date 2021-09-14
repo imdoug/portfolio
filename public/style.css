@@ -344,7 +344,7 @@ nav > p > a:hover{
     background-color: #90def4;
 }
 .project-box img{
-    max-width: 400px;
+    max-width: 320px;
     border-radius: 20px;
 }
 .project-box p{
