@@ -61,11 +61,13 @@ const Projects = () =>{
                     <hr className="mini-bar"/>
                     <img src="https://i.ibb.co/hB9FkLX/LostPaws.gif"/>
                     <p>This project I challenged myself to learn something new,
-                         and  I learned Java and Spring Boot to create the 
+                        and  I learned Java and Spring Boot to create the 
                         API/backEnd for this application. On the frontEnd I
                         used React with useContext and Router to give an 
                         app visual to this application. It is a full CRUD
-                        application with RESTful API. </p>
+                        application with RESTful API. The project itself is
+                        a web application for lost dogs to find their owners/family
+                        .</p>
                             <button className="project-btn"><a href="https://lost-paws-front.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
             </div>
