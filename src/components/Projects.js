@@ -38,9 +38,9 @@ const Projects = () =>{
                         and MVC methodologies. I also utilized plain CSS
                             to style the application and used EJS to language
                             to build the functionality and logic of the project.</p>
-                            <button className="project-btn"><a href="https://hproject2.herokuapp.com/restaurant" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://amores-restaurant.herokuapp.com/restaurant" target="_blank">SEE NOW</a></button>
                 </div>
-                <div className="project-box">
+                {/* <div className="project-box">
                     <h3>DevMuscle</h3>
                     <hr className="mini-bar"/>
                     <img src="https://i.ibb.co/K9C6JFB/DEVMuscles.gif"/>
@@ -55,7 +55,7 @@ const Projects = () =>{
                             and merging code.
                             </p>
                             <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
-                </div>
+                </div> */}
                 <div className="project-box">
                     <h3>Lost Paws</h3>
                     <hr className="mini-bar"/>
