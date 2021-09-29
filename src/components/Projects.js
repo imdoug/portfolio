@@ -15,13 +15,12 @@ const Projects = () =>{
                     <h3>Lost Paws</h3>
                     <hr className="mini-bar"/>
                     <img src="https://i.ibb.co/hB9FkLX/LostPaws.gif"/>
-                    <p>This project I challenged myself to learn something new,
-                        and  I learned Java and Spring Boot to create the 
-                        API/backEnd for this application. On the frontEnd I
-                        used React with useContext and Router to give an 
-                        app visual to this application. It is a full CRUD
-                        application with RESTful API. The project itself is
-                        a web application for lost dogs to find their owners/family
+                    <p>In this project I challenged myself to learn something new,
+                        and I learned Java and Spring Boot to create the 
+                        API/backEnd for this application. On the frontEnd, I
+                        used React with user context and Router to give an app visual to this application. 
+                        It is a full CRUD application with RESTful API. The project 
+                        itself is a web application for lost dogs to find their owners.
                         .</p>
                             <button className="project-btn"><a href="https://lost-paws-front.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
@@ -71,12 +70,12 @@ const Projects = () =>{
                     <h3>Mini Nike Store</h3>
                     <hr className="mini-bar"/>
                     <img src="https://i.ibb.co/Xx452WR/nike.gif"/>
-                    <p>This was a project the only runned on the Server,
-                        it envolves technologies like Noje.js, Express.js,
-                        Mongoose, JavaScript, CSS and HTML. is a e-commerce prototye
-                        using Nike brand as inpiration. users can buy sneakers 
-                        and decrease the number in stock also log in and add 
-                        more sneakers for sale. The project was focused on CRUD functionality,
+                    <p>This was a project the only run on the Server,
+                        it involves technologies like Noje.js, Express.js,
+                        Mongoose, JavaScript, CSS, and HTML. is an e-commerce 
+                        prototype using the Nike brand as inspiration. users can buy
+                         sneakers and decrease the number in stock also log in and add
+                          more sneakers for sale. The project was focused on CRUD functionality,
                          RESTful routing and MVC methodologies.</p>
                             <button className="project-btn"><a href="https://server-nike-store.herokuapp.com/nike" target="_blank">SEE NOW</a></button>
                 </div>
