@@ -22,7 +22,7 @@ const Projects = () =>{
                         It is a full CRUD application with RESTful API. The project 
                         itself is a web application for lost dogs to find their owners.
                         .</p>
-                            <button className="project-btn"><a href="https://lost-paws-front.herokuapp.com/" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://lost-paws.herokuapp.com/" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>DevMuscle</h3>
