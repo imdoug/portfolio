@@ -329,7 +329,7 @@ nav > p > a:hover{
     margin: 20px 0px;
 }
 .project-box{
-    width: 320px;
+    width: 330px;
 }
 .project-box h3{
     color: #ed622d;
@@ -344,6 +344,7 @@ nav > p > a:hover{
     background-color: #90def4;
 }
 .project-box img{
+    margin: 0 auto;
     max-width: 320px;
     border-radius: 20px;
 }
