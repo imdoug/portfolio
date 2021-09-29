@@ -57,7 +57,7 @@ const Intro = () =>{
         <div className="nav-text">
             <p className="code-text">{"<"}div id="creative-nav"{">"}</p>
             <nav className="upper"><p>Hello, here you can get to know more <a href="#ABOUT">ABOUT ME</a>,I can show you my <a href="#SKILLS">SKILLS</a></p></nav>
-            <nav className="lower"><p> you can also check some of my <a href="#PROJECTS">PROJECTS</a> and download my <a href="https://drive.google.com/file/d/1ZhyUF_HntV4c3C7PY-LR4sdwc4KvpCZW/view?usp=sharing" target="_blank">RESUME</a></p></nav>
+            <nav className="lower"><p> you can also check some of my <a href="#PROJECTS">PROJECTS</a> and download my <a href="https://drive.google.com/file/d/17pDFwzKhPxXmMFzjSP0tFdtZ_TVmzgsk/view?usp=sharing" target="_blank">RESUME</a></p></nav>
             <p className="code-text">{"<"}/div{">"}</p>
             <p className="code-text">{"<"}!-- words in uppercase are clickable --{">"} </p>
         </div>
