@@ -22,7 +22,7 @@ const Projects = () =>{
                         It is a full CRUD application with RESTful API. The project 
                         itself is a web application for lost dogs to find their owners.
                         .</p>
-                            <button className="project-btn"><a href="https://lost-paws.herokuapp.com/" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://lostpaws.dougmoreira.me/" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>DevMuscle</h3>
@@ -38,7 +38,7 @@ const Projects = () =>{
                             developer branches, submitting pull requests
                             and merging code.
                             </p>
-                            <button className="project-btn"><a href="https://devmuscle.herokuapp.com/" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://devmuscles.dougmoreira.me/" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>Amores Restaurant</h3>
@@ -77,7 +77,7 @@ const Projects = () =>{
                          sneakers and decrease the number in stock also log in and add
                           more sneakers for sale. The project was focused on CRUD functionality,
                          RESTful routing and MVC methodologies.</p>
-                            <button className="project-btn"><a href="https://server-nike-store.herokuapp.com/nike" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://nike-serverstore.herokuapp.com/nike" target="_blank">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>Pokedex</h3>
@@ -92,7 +92,7 @@ const Projects = () =>{
                             I used JavaScript and jQuery to manipulate the
                             DOM and CSS to give an immersive experience to
                             the user.</p>
-                            <button className="project-btn"><a href="https://pokemon-world-imdoug.netlify.app/" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="http://pokedex.dougmoreira.me/" target="_blank">SEE NOW</a></button>
                 </div>
             </div>
             <p className="code-text">{"<"}/div{">"}</p>

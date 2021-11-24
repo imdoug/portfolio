@@ -63,7 +63,7 @@ const Intro = () =>{
         </div>
         <div className="picture">
             <p className="code-text">{"<"}/img class="me"{">"}</p>
-            <img className="profile" src="https://media-exp1.licdn.com/dms/image/C5603AQGc3ouzk5HfqA/profile-displayphoto-shrink_800_800/0/1517000788898?e=1635984000&v=beta&t=B6MgTojhbpR1yg8lfeSYdXKRwiQz1pWiPK8sRGp4xWU"></img>
+            <img className="profile" src="https://i.ibb.co/KwMVqG2/profile.jpg"></img>
             <p className="code-text">{"<"}/img{">"}</p>
         </div>
         <div className="div">
