@@ -22,7 +22,7 @@ const Projects = () =>{
                             with clean and detailed desgin. The stack  for this project was 
                             React.js, HTML/CS with some soft animation.  
                         </p>
-                            <button className="project-btn"><a href="https://lostpaws.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://starbelly.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>Beekrypt</h3>
@@ -35,7 +35,7 @@ const Projects = () =>{
                             make it simply unique and fun. The stack for this project was React.js,
                             Meta Mask, Solidity, Tailwind.
                         </p>
-                            <button className="project-btn"><a href="https://lostpaws.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://beekrypt.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>GameSpot</h3>
@@ -48,7 +48,7 @@ const Projects = () =>{
                             products, shipping rates, and the entire checkout process), and Sanity that was my 
                             contennt manager handeling my products.
                         </p>
-                            <button className="project-btn"><a href="https://lostpaws.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://gamespot.dougmoreira.me/" target="_blank" rel="noreferrer">SEE NOW</a></button>
                 </div>
                 <div className="project-box">
                     <h3>Lost Paws</h3>

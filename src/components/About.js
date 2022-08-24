@@ -24,7 +24,7 @@ const About = ()=>{
                         </p>
                         <p className="code-text">{"<"}/p{">"}</p>
                     </div>
-                    <button className="resume btn"><a href="https://drive.google.com/file/d/17pDFwzKhPxXmMFzjSP0tFdtZ_TVmzgsk/view?usp=sharing" target="_blank" rel="noreferrer" >RESUME</a></button>
+                    <button className="resume btn"><a href="https://docs.google.com/document/d/1Vv2TkEeLTIMgR_-B00EY-gJRoxnZaEPnY-DEnJAKDq4/edit?usp=sharing" target="_blank" rel="noreferrer" >RESUME</a></button>
                     <div className="icons">
                         <p className="code-text">{"<"}!-- here are some of my social networks and some code I wrote --{">"}</p>
                         <a href="https://www.linkedin.com/in/imdoug/"  target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
