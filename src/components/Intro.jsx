@@ -47,7 +47,7 @@ const Intro = () =>{
     }
     return(
         <>
-        <button onClick={topFunction} id="myBtn"><i class="fa fa-angle-double-up"></i></button>
+        <button onClick={topFunction} id="myBtn"><i className="fa fa-angle-double-up"></i></button>
         <p className="code-text mode">{"<"}!-- day/night --{">"}</p>
         <div className="btn-box">
             <div id="toggle">

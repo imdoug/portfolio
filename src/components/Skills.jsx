@@ -19,9 +19,9 @@ const Skills = () => {
         <div className="skills">
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -34,9 +34,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -48,9 +48,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -63,9 +63,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -78,9 +78,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -94,9 +94,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">
@@ -108,9 +108,9 @@ const Skills = () => {
           </div>
           <div className="skill-box">
             <div className="top">
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
+              <i className="fa fa-circle"></i>
             </div>
             <hr />
             <div className="skill-text">

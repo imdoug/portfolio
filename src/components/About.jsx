@@ -27,10 +27,10 @@ const About = ()=>{
                     <button className="resume btn"><a href="https://drive.google.com/file/d/1ZhyUF_HntV4c3C7PY-LR4sdwc4KvpCZW/view?usp=sharing" target="_blank">RESUME</a></button>
                     <div className="icons">
                         <p className="code-text">{"<"}!-- here are some of my social networks and some code I wrote --{">"}</p>
-                        <a href="https://www.linkedin.com/in/imdoug/"  target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/imdoug"  target="_blank"><i class="fa fa-github"></i></a>
-                        <a  href="https://codepen.io/imdoug/"  target="_blank"><i class="fa fa-codepen"></i></a>
-                        <a href="https://www.instagram.com/i.mdoug/"  target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/imdoug/"  target="_blank"><i className="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/imdoug"  target="_blank"><i className="fa fa-github"></i></a>
+                        <a  href="https://codepen.io/imdoug/"  target="_blank"><i className="fa fa-codepen"></i></a>
+                        <a href="https://www.instagram.com/i.mdoug/"  target="_blank"><i className="fa fa-instagram"></i></a>
                     </div>
                 </div>
 
