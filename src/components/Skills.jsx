@@ -21,9 +21,9 @@ const Skills = () =>{
                     <div className="skill-text">
                         <h3 className="skill-title">Languages</h3>
                         <p className="skill-item">JavaScript</p>
+                        <p className="skill-item">Python</p>
                         <p className="skill-item">Java</p>
                         <p className="skill-item">Ruby</p>
-                        <p className="skill-item">Python</p>
                     </div>
                 </div>
                 <div className="skill-box">
@@ -79,9 +79,10 @@ const Skills = () =>{
                     <hr/>
                     <div className="skill-text">
                         <h3 className="skill-title">Front End</h3>
+                        <p className="skill-item">HTML/CSS</p>
                         <p className="skill-item">ReactJs</p>
-                        <p className="skill-item">HTML</p>
-                        <p className="skill-item">CSS</p>
+                        <p className="skill-item">Vue.js</p>
+                        <p className="skill-item">Next.js</p>
                         <p className="skill-item">Sass</p>
                     </div>
                 </div>
@@ -96,6 +97,7 @@ const Skills = () =>{
                         <h3 className="skill-title">Version Control</h3>
                         <p className="skill-item">Github</p>
                         <p className="skill-item">Git</p>
+                        <p className="skill-item">Bitbucket</p>
                     </div>
                 </div>
                 <div className="skill-box">
@@ -111,6 +113,7 @@ const Skills = () =>{
                         <p className="skill-item">MVC</p>
                         <p className="skill-item">F.I.R.S.T principles</p>
                         <p className="skill-item">C.R.A.P Design </p>
+                        <p className="skill-item">Agile/Scrum </p>
                     </div>
                 </div>
             </div>

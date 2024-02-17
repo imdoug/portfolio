@@ -279,12 +279,10 @@ nav > p > a:hover{
 }
 .skills-head{
     padding-bottom: 20px;
-    text-indent: 16.5%;
 }
 .skills-head > h2{
     padding: 20px 0px;
     margin: 5px;
-    text-indent: 19.5%;
 }
 .skills > .code-text{
     color: #9eace6;
@@ -303,14 +301,12 @@ nav > p > a:hover{
 }
 /* PROJECTS SECTION */
 .projects-head{
-    text-indent: 16.5%;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 .projects-head > h2{
     font-size: 2.5em;
     margin: 5px;
-    text-indent: 19.5%;
     color: #ed622d;
     margin-bottom: 20px;
 }
@@ -343,6 +339,7 @@ nav > p > a:hover{
 }
 .project-box img{
     max-width: 320px;
+    min-height: 110px;
     border-radius: 20px;
 }
 .project-box p{
