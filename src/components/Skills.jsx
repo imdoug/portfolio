@@ -34,7 +34,7 @@ const Skills = () =>{
                     </div>
                     <hr/>
                     <div className="skill-text">
-                        <h3 className="skill-title">Enviroments</h3>
+                        <h3 className="skill-title">Environments</h3>
                         <p className="skill-item">VS Code</p>
                         <p className="skill-item">Atom</p>
                         <p className="skill-item">PyCharm</p>
