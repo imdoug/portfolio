@@ -14,7 +14,7 @@ const Projects = () =>{
                 <div className="project-box">
                     <h3>Pokedex</h3>
                     <hr className="mini-bar"/>
-                    <img src="https://i.ibb.co/LCLgMy3/Pokemon.gif"/>
+                    <img src="/assets/pokemon.gif"/>
                     <p>In this first tech Project, I combine my HTML,
                         CSS and JavaScript skills to create a Pokedex
                         where the user can search for pokemons and get
@@ -36,9 +36,9 @@ const Projects = () =>{
                         that would be appeling to costumers and 
                         also had a simple and usefull UI. Tech 
                         stack for this project was: React.js, Responsive Design, Flex/ Grid, HTML/CSS </p>
-                            <button className="project-btn"><a href="https://starbelly.dougmoreira.me" target="_blank">SEE NOW</a></button>
+                            <button className="project-btn"><a href="https://starbelly.dougmoreira.com" target="_blank">SEE NOW</a></button>
                 </div>
-                <div className="project-box">
+                {/* <div className="project-box">
                     <h3>GameSpot</h3>
                     <hr className="mini-bar"/>
                     <img src="/assets/Gamespot.gif"/>
@@ -50,8 +50,8 @@ const Projects = () =>{
                         and recalculate in case you remove any. Tech used was 
                         React.js, Material-UI, Commerce.js and Stripe
                         .</p>
-                            <button className="project-btn"><a href="https://gamespot.dougmoreira.me" target="_blank">SEE NOW</a></button>
-                </div>
+                            <button className="project-btn"><a href="https://gamespot.dougmoreira.com" target="_blank">SEE NOW</a></button>
+                </div> */}
             </div>
             <div className="projects-head">
                 <p className="code-text">{"<"}h2{">"}</p>
