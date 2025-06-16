@@ -38,20 +38,18 @@ const Projects = () =>{
                         stack for this project was: React.js, Responsive Design, Flex/ Grid, HTML/CSS </p>
                             <button className="project-btn"><a href="https://starbelly.dougmoreira.com" target="_blank">SEE NOW</a></button>
                 </div>
-                {/* <div className="project-box">
-                    <h3>GameSpot</h3>
+                <div className="project-box">
+                    <h3>TalkBack</h3>
                     <hr className="mini-bar"/>
-                    <img src="/assets/Gamespot.gif"/>
-                    <p>This project I challenged myself to learn something new,
-                        and combining my previous experiences I decided to create 
-                        a e-commerce for gamers with games and consoles, 
-                        with a popular payment provider witch is Stripe Api. 
-                        The app has a cart functionality that add up all the items,
-                        and recalculate in case you remove any. Tech used was 
-                        React.js, Material-UI, Commerce.js and Stripe
-                        .</p>
-                            <button className="project-btn"><a href="https://gamespot.dougmoreira.com" target="_blank">SEE NOW</a></button>
-                </div> */}
+                    <img src="/assets/talkback.gif"/>
+                    <p> This project is a LMS SaaS app featuring user authentication, 
+                        subscriptions, and payments using Next.js, 
+                        Supabase, and Stripe — also integrates Vapi 
+                        AI voice agent for seamless, interactive 
+                        learning sessions.
+                    </p>
+                            <button className="project-btn"><a href="https://talkback-ruby.vercel.app/" target="_blank">SEE NOW</a></button>
+                </div>
             </div>
             <div className="projects-head">
                 <p className="code-text">{"<"}h2{">"}</p>
